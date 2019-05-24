@@ -2,7 +2,7 @@
   "enabledManagers": ["npm"],
   "packageRules": [
     {
-      "excludedPackagePatterns": ["^@hashicorp/"],
+      "excludePackagePatterns": ["^@hashicorp/"],
       "enabled": false
     }
   ]
